@@ -14,7 +14,6 @@ class App extends Component {
   }
 
   onRouteChange = (route) => {
-    // high order function code splitting
     this.setState({ route });
   }
 
